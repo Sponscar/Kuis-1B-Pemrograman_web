@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kelipatan</title>
+  <link rel="stylesheet" href="kelipatan.css">
+</head>
+<body>
+
+<div class="canvas">
+  <form id="formKelipatan">
+    <label for="kelipatan">Masukan Kelipatan:</label>
+    <input type="number" id="kelipatan" placeholder="misal: 2">
+    <button type="submit">Kirim</button>
+  </form>
+
+  <div id="peringatan" class="warning"></div>
+  <h2 id="judul">Kelipatan dari 1</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Angka</th>
+        <th>Kelipatan</th>
+      </tr>
+    </thead>
+    <tbody id="tabelData">
+      <!-- Baris akan dibuat oleh JS -->
+    </tbody>
+  </table>
+</div>
+
+<script src="kelipatan.js"></script>
+</body>
+</html>
